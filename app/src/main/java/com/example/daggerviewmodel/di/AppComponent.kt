@@ -4,7 +4,7 @@ import com.example.daggerviewmodel.MainActivity
 import dagger.Component
 import javax.inject.Singleton
 
-@Component(modules = [ViewModelModule::class])
+@Component
 @Singleton
 interface AppComponent {
     fun inject(mainActivity: MainActivity)

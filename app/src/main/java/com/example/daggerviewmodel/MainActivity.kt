@@ -12,7 +12,7 @@ import javax.inject.Inject
 private const val TAG = "MainActivity"
 class MainActivity : AppCompatActivity() {
 
-    @Inject lateinit var viewModeFactory: ViewModelFactory
+    @Inject lateinit var viewModeFactory: ViewModelFactory<MainViewModel>
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
